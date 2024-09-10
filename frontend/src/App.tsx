@@ -13,12 +13,12 @@ const App = () => {
     <>
       <div className="bg-sky-500 w-full min-h-screen">
         <header className="text-white">
-          <SignedOut>
+          {/* <SignedOut>
             <SignInButton />
           </SignedOut>
           <SignedIn>
             <UserButton />
-          </SignedIn>
+          </SignedIn> */}
         </header>
         <div>
           <Front />
